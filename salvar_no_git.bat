@@ -2,7 +2,7 @@
 
 git init 
 
-echo Escrava seu nome de usuario
+echo Escreva seu nome de usuario
 set /p u_name=
 git config user.name %u_name%
 
@@ -10,7 +10,7 @@ echo:
 
 echo Escreva seu email
 set /p u_email=
-git config user.email %u_emaill%
+git config user.email %u_email%
 
 echo:
 
@@ -20,7 +20,7 @@ git remote add origin %u_repo%
 
 echo:
 
-git add .
+git add *
 echo Adicionou todos os arquivos
 
 echo:
@@ -30,11 +30,8 @@ git commit -m "Commit inicial"
 cls
 
 echo Entre nesse site:
-
-echo:
-
 echo http://github.com/%_name%/settings/tokens
-echo Crie um token e salve-o
+echo Crie um token e salve-o e copie ele, você vai precisar dele
 
 echo:
 
@@ -42,11 +39,8 @@ echo Press Space para continuar depois de seguir os passos acima
 
 PAUSE
 
-echo Preencha os seguintes campos
-echo:
-echo Seu nome de usuario %u_name%
-echo:
-echo Depois cole/PASTE o seu token
+
+echo Cole/PASTEo seu token no campo password
 
 echo:
 

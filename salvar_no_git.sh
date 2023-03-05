@@ -25,15 +25,10 @@ echo "Adicionou todos esses arquivos"
 git commit -m "Commit inicial" 
 
 echo "Entre nesse site:"
-echo https://github.com/$u_name/settings/tokens
-
+echo "https://github.com/$u_name/settings/tokens"
 echo"Crie um token e salve-o" 
-
-echo "Preencha os seguintes campos"
-echo Seu nome de usuario $u_name
-echo "Depois cole/PASTE o seu token" 
+echo "Copie e depois cole/PASTE o seu token no campo que solicita o password" 
 
 git push origin master 
 
-echo "Confira Nesse Site Aqui se os arquivos subiram"
-echo $u_repo
+echo "Confira se os arquivos estão salvos no repositório do git"
