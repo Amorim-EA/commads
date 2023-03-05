@@ -15,13 +15,7 @@ echo "Cole o link do Repositório do git"
 read ul_repo
 git remote add origin $ul_repo
 
-git status
-echo "O arquivos em vermelho são os arquivos que foram editados depois do commit" 
-
 git add .
-
-echo "Adicionou todos esses arquivos" 
-
 git commit -m "Commit inicial" 
 
 echo "Entre nesse site:"
@@ -32,3 +26,4 @@ echo "Copie e depois cole/PASTE o seu token no campo que solicita o password"
 git push origin master 
 
 echo "Confira se os arquivos estão salvos no repositório do git"
+echo "ul_repo"
