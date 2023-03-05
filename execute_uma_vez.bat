@@ -20,7 +20,7 @@ git remote add origin %u_repo%
 
 echo:
 
-git add *
+git add .
 echo Adicionou todos os arquivos
 
 echo:

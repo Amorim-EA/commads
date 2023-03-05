@@ -18,7 +18,7 @@ git remote add origin $ul_repo
 git status
 echo "O arquivos em vermelho são os arquivos que foram editados depois do commit" 
 
-git add *
+git add .
 
 echo "Adicionou todos esses arquivos" 
 
